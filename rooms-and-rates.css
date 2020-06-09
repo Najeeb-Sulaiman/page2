@@ -579,3 +579,15 @@ a {
 .display{
     display: inline-block;
 }
+
+.image{
+    margin-bottom: 50px;
+}
+.card {
+    transform: translateZ(0);
+    transition: transform 1.2s ease out;
+    margin-bottom: 50px;
+}
+.card:hover {
+transform: scale(1.05);
+}
